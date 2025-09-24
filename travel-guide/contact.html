@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Kodluyoruz</title>
+
+    <style>
+        header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px 0;
+            width: 100%;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 90px;
+            margin-bottom: 60px;
+            border-radius: 10px;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        section ul {
+            list-style: none;
+            margin: 0 auto;
+            display: table;
+        }
+
+        form {
+            text-align: center;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+            background-color: #a9e7fa;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        form input {
+            min-width: 300px;
+            min-height: 20px;
+        }
+
+        form textarea {
+            min-height: 100px;
+            min-width: 300px;
+        }
+
+        form button {
+            background-color: rgba(0, 127, 247, 0.623);
+            border: 0;
+            border-radius: 10px;
+            padding: 5px;
+        }
+
+        footer nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 15px 0;
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach us using the information below:</p>
+        <img src="" alt="">
+
+        <ul>
+            <li><strong>Email:</strong> <a href="mailto:info@gmail.com">info@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:02579562564">+90 257 956 25 XX</a></li>
+            <li><strong>Address:</strong> Isparta, Turkey</li>
+        </ul>
+
+        <h3>Write to Us</h3>
+        <form action="#">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about-us.html">About Us</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <p>© 2025 Isparta Travel Guide | The city of roses and lavender.</p>
+    </footer>
+
+</body>
+
+</html>
