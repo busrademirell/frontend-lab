@@ -2,9 +2,9 @@ body {
   text-align: center;
 }
 .cards-container {
-  display: flex; /* Kartları yatayda sıralar */
-  justify-content: center; /* Ortalar */
-  gap: 20px; /* Kartlar arası boşluk */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 .card {
   padding: 10px 10px;
