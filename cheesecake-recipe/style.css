@@ -30,7 +30,11 @@ section {
 ul li::before {
   content: "🍰 ";
 }
-
 #info {
   text-align: center;
+}
+#info p {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
