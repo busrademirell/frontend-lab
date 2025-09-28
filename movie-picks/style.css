@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 20px;
+  align-items: stretch;
 }
 .card {
   padding: 10px 10px;
@@ -16,8 +17,7 @@ body {
   display: flex;
   align-items: center;
   width: 300px;
-  height: 650px;
-  justify-content: space-between;
+  min-height: 650px;
   flex-direction: column;
 }
 
@@ -25,8 +25,12 @@ body {
   max-width: 300px;
   max-height: 300px;
 }
+.card h1 {
+  min-height: 90px;
+}
 
 .card p {
-  text-align: justify;
   padding-top: 15px;
+  text-align: justify;
+  line-height: 1.5;
 }
