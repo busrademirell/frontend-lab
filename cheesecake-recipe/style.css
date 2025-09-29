@@ -33,14 +33,20 @@ section {
   margin: 20px auto;
 }
 
-ul li::before {
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#ingredients ul li::before {
   content: "🍰 ";
 }
-#info {
-  text-align: center;
-}
-#info p {
+
+.meta {
   display: flex;
   justify-content: center;
   gap: 30px;
+}
+.note {
+  text-align: center;
 }
