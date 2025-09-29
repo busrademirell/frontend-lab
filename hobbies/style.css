@@ -39,3 +39,6 @@ h2 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+h3 {
+  min-height: 90px;
+}
