@@ -9,30 +9,30 @@
 
 # Frontend Lab
 
-Frontend Lab, HTML, CSS ve JavaScript teknolojileri kullanılarak geliştirilmiş küçük ölçekli projelerden oluşan bir koleksiyondur.  
-Her proje, frontend geliştirme alanındaki becerilerimi geliştirmek, yeni yaklaşımlar denemek ve modern web standartlarını uygulamak amacıyla hazırlanmıştır.
+Frontend Lab is a collection of small-scale projects developed using HTML, CSS, and JavaScript technologies.  
+Each project was created to improve my frontend development skills, experiment with new approaches, and apply modern web standards.
 
-## 📂 İçerik
+## 📂 Contents
 
-- 🍰 Cheesecake Recipe – Basit bir tarif sayfası
-- 🎬 Movie Picks – Film seçimlerini listeleyen sayfa
-- ✈️ Travel Guide – Seyahat rehberi tasarımı
-- 💡 Hobbies – Film, kitap ve müzik önerileri
+- 🍰 Cheesecake Recipe – A simple recipe page
+- 🎬 Movie Picks – A page that lists movie selections
+- ✈️ Travel Guide – Travel guide design
+- 💡 Hobbies – Recommendations for movies, books, and music
 
-## 🎯 Hedefler
+## 🎯 Goals
 
-- Frontend teknolojilerini uygulamalı örneklerle pekiştirmek
-- Kullanıcı dostu ve işlevsel arayüzler tasarlamak
-- Kapsamı küçük fakat amaca yönelik projeler üretmek
+- Reinforce frontend technologies with practical examples
+- Design user-friendly and functional interfaces
+- Build small-scale yet purposeful projects
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 
-- HTML5 – Sayfa yapısı ve içerik oluşturma
-- CSS3 – Stil, düzen ve temel responsive tasarımlar
+- **HTML5** – Page structure and content creation
+- **CSS3** – Styling, layout, and basic responsive design
 
-## 🚀 Kullanım
+## 🚀 Usage
 
-Her proje bağımsızdır. İlgili klasöre giderek index.html dosyasını tarayıcıda açabilirsiniz.
+Each project is independent. Navigate to the related folder and open the `index.html` file in your browser.
 
 ```bash
 cd cheesecake-recipe
