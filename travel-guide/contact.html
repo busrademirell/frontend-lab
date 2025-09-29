@@ -5,10 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact the Isparta Travel Guide team for inquiries, travel tips, and support.">
     <title>Contact | Isparta Travel Guide</title>
-
     <style>
-        header nav ul {
+        @media (max-width: 600px) {
+
+            section {
+                max-width: 800px;
+                width: 100%;
+                padding: 20px;
+
+            }
+
+            form input,
+            form textarea,
+            form button {
+                min-width: 100%;
+            }
+        }
+
+        header nav ul,
+        footer nav ul {
             list-style: none;
             display: flex;
             justify-content: center;
@@ -77,78 +94,76 @@
             min-height: 20px;
         }
 
-        footer nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            padding: 15px 0;
-            width: 100%;
+        form label,
+        form input,
+        form textarea {
+            display: block;
+            margin-bottom: 15px;
         }
     </style>
 
 </head>
 
 <body>
-    <header>
-        <nav>
+    <main>
+
+        <header>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>You can reach us using the information below </p>
             <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about-us.html">About us</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
+                <li><strong>Email:</strong> <a href="mailto:info@gmail.com">info@gmail.com</a></li>
+                <li><strong>Phone:</strong> <a href="tel:02579562564">+90 257 956 25 XX</a></li>
+                <li><strong>Address:</strong> Isparta, Turkey</li>
             </ul>
-        </nav>
-    </header>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach us using the information below:</p>
-        <img src="" alt="">
+            <h3>Write to Us</h3>
+            <form action="#">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
 
-        <ul>
-            <li><strong>Email:</strong> <a href="mailto:info@gmail.com">info@gmail.com</a></li>
-            <li><strong>Phone:</strong> <a href="tel:02579562564">+90 257 956 25 XX</a></li>
-            <li><strong>Address:</strong> Isparta, Turkey</li>
-        </ul>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-        <h3>Write to Us</h3>
-        <form action="#">
-            <label for="name">Your Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" required></textarea>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+                <button type="submit" aria-label="Send message">Send</button>
+            </form>
+        </section>
 
-            <label for="message">Your Message:</label><br>
-            <textarea id="message" name="message" required></textarea><br><br>
-
-            <button type="submit">Send</button>
-        </form>
-    </section>
-
-    <footer>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about-us.html">About us</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <p>© 2025 Isparta Travel Guide | The city of roses and lavender.</p>
-    </footer>
-
+        <footer>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <p>© 2025 Isparta Travel Guide | The city of roses and lavender.</p>
+        </footer>
+    </main>
 </body>
 
 </html>
