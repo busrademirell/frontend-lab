@@ -5,9 +5,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Learn more about the Isparta Travel Guide team, our mission, and how we share the beauty of the city of roses with travelers.">
     <title>About Us | Isparta Travel Guide</title>
     <style>
-        header nav ul {
+        @media (max-width: 600px) {
+            article {
+                padding: 15px;
+            }
+
+            header nav ul,
+            footer nav ul {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+
+        header nav ul,
+        footer nav ul {
             list-style: none;
             display: flex;
             justify-content: center;
@@ -41,7 +56,10 @@
         }
 
         article img {
-            width: 800px;
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 10px;
         }
 
         article p {
@@ -50,67 +68,60 @@
             padding-top: 10px;
             padding-bottom: 10px;
         }
-
-        footer nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            padding: 15px 0;
-            width: 100%;
-        }
     </style>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about-us.html">About us</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <article>
-            <h2>About Us</h2>
-            <p>
-                The Isparta Travel Guide is designed for those who want to discover Isparta, the city of roses.
-                Our aim is to introduce visitors to the city’s natural beauty, historical sites,
-                cultural richness, and local delicacies.
-            </p>
-            <img src="https://images.gezinomi.com/fit-in/1200x800/filters:quality(100)/filters:format(webp)/assets/blog/isparta-rose_1458324383-10.08.2021134003.jpg"
-                alt="Isparta">
-            <p>
-                Our team consists of both locals of Isparta and travel enthusiasts.
-                We want to provide you with the most up-to-date information
-                and help make your trip enjoyable and hassle-free.
-            </p>
-        </article>
-    </section>
-    <footer>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about-us.html">About us</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <p>© 2025 Isparta Travel Guide | The city of roses and lavender.</p>
-    </footer>
+    <main>
+        <header>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <h1>About Us</h1>
+                <p>
+                    The Isparta Travel Guide is designed for those who want to discover Isparta, the city of roses.
+                    Our aim is to introduce visitors to the city’s natural beauty, historical sites,
+                    cultural richness, and local delicacies.
+                </p>
+                <img src="https://images.gezinomi.com/fit-in/1200x800/filters:quality(100)/filters:format(webp)/assets/blog/isparta-rose_1458324383-10.08.2021134003.jpg"
+                    alt="Isparta">
+                <p>
+                    Our team consists of both locals of Isparta and travel enthusiasts.
+                    We want to provide you with the most up-to-date information
+                    and help make your trip enjoyable and hassle-free.
+                </p>
+            </article>
+        </section>
+        <footer>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <p>© 2025 Isparta Travel Guide | The city of roses and lavender.</p>
+        </footer>
+    </main>
 </body>
 
 </html>

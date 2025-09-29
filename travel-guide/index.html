@@ -5,8 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Discover the best attractions in Isparta: rose gardens, lakes, historical sites, ski resorts, lavender fields and natural parks.">
     <title>Home | Isparta Travel Guide</title>
     <style>
+        @media (max-width: 768px) {
+            article ul li {
+                padding: 0 20px;
+            }
+        }
+
         header nav ul {
             list-style: none;
             display: flex;
@@ -26,6 +34,15 @@
             font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
         }
 
+        main {
+            max-width: 1200px;
+            width: 90%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
         a {
             text-decoration: none;
             color: inherit;
@@ -41,8 +58,12 @@
         }
 
         article img {
-            width: 800px;
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 10px;
         }
+
 
         article p {
             max-width: 800px;
@@ -76,7 +97,7 @@
 <body>
 
     <header>
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about-us.html">About us</a></li>
@@ -88,10 +109,11 @@
 
 
     <main>
-
+        <h1>🌸 Isparta Travel Guide</h1>
         <article>
             <h2>🌹 Rose Gardens and Rose Festival</h2>
-            <img src="https://i.neredekal.com/i/neredekal/75/760x380/6477cf431f4eecaf3afb51a5" alt="Isparta">
+            <img src="https://i.neredekal.com/i/neredekal/75/760x380/6477cf431f4eecaf3afb51a5" loading="lazy"
+                alt="Isparta">
             <p>Isparta is known as the “land of roses.” Every year in May–June, the Rose Festival offers an
                 unforgettable experience in fragrant gardens.</p>
             <ul>
@@ -104,7 +126,7 @@
         <article>
             <h2>🏞️ Lake Eğirdir and Nature Walks</h2>
             <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/46/63/85/egirdir-golu-largejpg.jpg?w=700&h=-1&s=1"
-                alt="Eğirdir">
+                loading="lazy" alt="Eğirdir">
             <p>Eğirdir is a district of Isparta known for its natural beauty. Lake Eğirdir and its surroundings are
                 ideal for walking, cycling, and water activities. It offers unique opportunities for those who want to
                 spend time in nature.</p>
@@ -117,7 +139,8 @@
 
         <article>
             <h2>⛪ Historical and Cultural Riches</h2>
-            <img src="https://i.neredekal.com/i/neredekal/75/585x300/60677fb9f94aa712a9063d20" alt="Yalvaç">
+            <img src="https://i.neredekal.com/i/neredekal/75/585x300/60677fb9f94aa712a9063d20" loading="lazy"
+                alt="Yalvaç">
             <p>Yalvaç, a district of Isparta, is famous for its historical and natural beauty. With its ancient cities,
                 museums, natural beaches, and historical structures, it offers visitors a rich cultural experience.</p>
             <ul>
@@ -129,7 +152,7 @@
 
         <article>
             <h2>🎿 Davraz Ski Resort</h2>
-            <img src="https://www.escantur.com/images/tour/5143_b.jpg" alt="Davraz">
+            <img src="https://www.escantur.com/images/tour/5143_b.jpg" loading="lazy" alt="Davraz">
             <p>Davraz, one of the favorite centers for winter tourism, offers slopes suitable for both professional
                 skiers and beginners.</p>
             <ul>
@@ -141,7 +164,7 @@
 
         <article>
             <h2>💜 Kuyucak Lavender Village</h2>
-            <img src="https://www.boyacioglu.com.tr/images/tour/870_b.jpg" alt="Kuyucak">
+            <img src="https://www.boyacioglu.com.tr/images/tour/870_b.jpg" loading="lazy" alt="Kuyucak">
             <p>In July, Kuyucak Village turns purple with lavender fields, making it a unique paradise for photography
                 enthusiasts.</p>
             <ul>
@@ -154,7 +177,7 @@
         <article>
             <h2>🌲 Şarkikaraağaç</h2>
             <img src="https://gezilecekyerler.com/wp-content/uploads/2017/05/K%C4%B1z%C4%B1lda%C4%9F-Milli-Park%C4%B1-Nerede-Nas%C4%B1l-Gidilir-640x482.jpg"
-                alt="Şarkikaraağaç">
+                loading="lazy" alt="Şarkikaraağaç">
             <p>Şarkikaraağaç, one of Isparta’s districts famous for natural beauty, attracts visitors with its highlands
                 and areas suitable for outdoor sports.</p>
             <ul>
@@ -167,7 +190,7 @@
         <article>
             <h2>🏞️ Kovada Lake National Park</h2>
             <img src="https://www.kulturportali.gov.tr/repoKulturPortali/large/SehirRehberi//GezilecekYer/20180504154636791_kovada1.JPG?format=jpg&quality=50"
-                alt="Kovada">
+                loading="lazy" alt="Kovada">
             <p>Located just south of Lake Eğirdir, Kovada Lake National Park is a unique place for bird watchers and
                 nature photographers.</p>
             <ul>
@@ -180,7 +203,7 @@
     </main>
 
     <footer>
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about-us.html">About us</a></li>
