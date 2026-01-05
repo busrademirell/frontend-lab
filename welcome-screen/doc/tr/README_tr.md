@@ -336,4 +336,4 @@ Kısacası, if/else ve switch case _koşul kontrolü için_, fonksiyonlar ise bu
 
   - Eklenen olaylar gerektiğinde kaldırılabilir, böylece esnek bir yapı sunar.
 
-- Kısacası event listener, web sayfasındaki davranışları modüler, düzenli ve yönetilebilir hâle getirmek için kullanılan en modern yöntemdir.s
+- Kısacası event listener, web sayfasındaki davranışları modüler, düzenli ve yönetilebilir hâle getirmek için kullanılan en modern yöntemdir.
