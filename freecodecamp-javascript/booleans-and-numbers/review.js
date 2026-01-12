@@ -162,3 +162,28 @@ console.log(parseInt("3.14")); // 3
 
 // .toFixed()
 console.log((3.14449).toFixed(3)); // "3.144"
+
+// undefined vs null
+
+let kullaniciIsmi1 = undefined;
+let kullaniciIsmi2 = null;
+
+if (kullaniciIsmi1 == kullaniciIsmi2) {
+  console.log("İsim alanı boş, lütfen doldurun."); // According to JavaScript rules, these two are considered equivalent to "empty values".
+}
+
+let veri = null;
+
+if (veri === undefined) {
+  console.log("Bu veri henüz hiç tanımlanmadı.");
+} else if (veri === null) {
+  console.log("Bu veri kasten boş bırakıldı."); // Their types are different.
+}
+
+let sicaklik; // undefined
+
+if (sicaklik < 0) {
+  console.log("Hava donuyor!");
+} else {
+  console.log("Hava donmuyor veya veri hatalı."); // `undefined` cannot pass any numerical comparisons (<, >, <=) because it is converted to `NaN`.
+}
