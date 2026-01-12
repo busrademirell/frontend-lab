@@ -169,13 +169,15 @@ let kullaniciIsmi1 = undefined;
 let kullaniciIsmi2 = null;
 
 if (kullaniciIsmi1 == kullaniciIsmi2) {
-  console.log("İsim alanı boş, lütfen doldurun."); // According to JavaScript rules, these two are considered equivalent to "empty values".
+  console.log("undefined is equal null"); // According to JavaScript rules, these two are considered equivalent to "empty values".
 }
 
 let veri = null;
-
+if (!veri) {
+  console.log("!null is true");
+}
 if (veri === undefined) {
-  console.log("Bu veri henüz hiç tanımlanmadı.");
+  console.log("data is undefined");
 } else if (veri === null) {
   console.log("Bu veri kasten boş bırakıldı."); // Their types are different.
 }
