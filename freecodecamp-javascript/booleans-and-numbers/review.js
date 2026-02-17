@@ -165,27 +165,27 @@ console.log((3.14449).toFixed(3)); // "3.144"
 
 // undefined vs null
 
-let kullaniciIsmi1 = undefined;
-let kullaniciIsmi2 = null;
+let name1 = undefined;
+let name2 = null;
 
-if (kullaniciIsmi1 == kullaniciIsmi2) {
+if (name1 == name2) {
   console.log("undefined is equal null"); // According to JavaScript rules, these two are considered equivalent to "empty values".
 }
 
-let veri = null;
-if (!veri) {
+let data = null;
+if (!data) {
   console.log("!null is true");
 }
-if (veri === undefined) {
+if (data === undefined) {
   console.log("data is undefined");
-} else if (veri === null) {
-  console.log("Bu veri kasten boş bırakıldı."); // Their types are different.
+} else if (data === null) {
+  console.log("data is null"); // Their types are different.
 }
 
-let sicaklik; // undefined
+let temperature1; // undefined
 
-if (sicaklik < 0) {
-  console.log("Hava donuyor!");
+if (temperature1 < 0) {
+  console.log("It's freezing!");
 } else {
-  console.log("Hava donmuyor veya veri hatalı."); // `undefined` cannot pass any numerical comparisons (<, >, <=) because it is converted to `NaN`.
+  console.log("Either the air isn't freezing or the data is incorrect."); // `undefined` cannot pass any numerical comparisons (<, >, <=) because it is converted to `NaN`.
 }
